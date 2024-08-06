@@ -31,4 +31,4 @@ def predict_home_price():
 
 if __name__=="__main__":
     print("Starting PythonFlask Server")
-    app.run()
+    app.run(port=10000)
